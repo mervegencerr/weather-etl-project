@@ -1,4 +1,4 @@
-# Buluttan Weather ETL (Case Study)
+# Weather ETL Project
 
 Small end‑to‑end ETL that fetches hourly **weather** (ECCC) and **solar radiation** (NASA POWER), performs QC + cleaning, loads to **SQLite**, builds a unified fact table, and answers analytical questions with SQL.
 
