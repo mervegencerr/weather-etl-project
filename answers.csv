@@ -1,0 +1,9 @@
+Which day had the highest average solar_score ?;2024-06-15 (391.540625)
+Which day had the highest total GHI?;2024-06-15 (255063.9)
+"Which hour had the most 
+wind_flag_high
+ events?";19 (30events)
+What is the correlation between air_temp_c and ghi_wm2 ?;0.48718147235613096
+"Top 5 hours with the largest 
+temp_anomaly_c
+ (show GHI values too).";18 (ghi - 750.5), 19 (735.28), 20 (582.6), 17 (814.3), 21 (423.3)
