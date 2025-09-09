@@ -18,6 +18,18 @@ CREATE TABLE stg_eccc_hourly (
 
 )""")
 
+cursor.execute("""
+CREATE TABLE stg_nasa_power_hourly (
+
+  timestamp_utc TEXT
+  , latitude REAL 
+  , longitude REAL
+  , ghi_wm2 REAL
+  , dni_wm2 REAL
+  , dif_wm2 REAL
+
+)""")
+
 input_dir = Path("data/clean")
 for csv_file in input_dir.glob("*_clean.csv"):
     df = pd.read_csv(csv_file)
